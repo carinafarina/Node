@@ -1,5 +1,5 @@
-const CPF = require ("cpf");
+const cpf = require ('cpf');
 
-CPF.isValid("111.111.111-11");
+cpf.isValid('111.111.111-11');
 
-console.log(CPF);
+console.log(cpf.isValid('111.111.111-11'));
